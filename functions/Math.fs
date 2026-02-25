@@ -45,6 +45,15 @@ module Math =
     let lcm a b =
         (a * b) / gcd a b
 
+    let primesFromTo a b =
+        let isPrime n =
+            if n < 2 then false
+            else
+                let rec checkDivisors d =
+                    d * d > n || (n % d <> 0 && checkDivisors (d + 1))
+                checkDivisors 2
+        [a .. b] |> List.filter isPrime
+
 
         
 
