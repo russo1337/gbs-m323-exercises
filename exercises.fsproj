@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Program.fs" />
+    <Compile Include="functions\NetPrice.fs" />
+    <Compile Include="functions\Math.fs" />
+    <Compile Include="Excercise1and2.fs" />
+    <Compile Include="Excercise3.fs" />
   </ItemGroup>
-
 </Project>
