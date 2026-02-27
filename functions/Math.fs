@@ -11,6 +11,7 @@ module Math =
          match start with
             | start when start > finish -> 0   
             | start -> start + summerizeFromTo (start + 1) finish
+
     let fibonacci n =
         let rec fib n =
             match n with
@@ -18,6 +19,7 @@ module Math =
                 | 1 -> 1
                 | n -> fib (n - 1) + fib (n - 2)
         fib n
+
     let rec factorial (n:int64) :int64 =
         match n with
             | 0L -> 1
@@ -35,12 +37,11 @@ module Math =
     let scoreToGrade (score:float) (maxScore:float) : float =
         System.Math.Round((score * 5.0 / maxScore) + 1.0, 1)
 
-    let gcd a b =
-        let rec gcd' a b =
-            match b with
-                | 0 -> a
-                | _ -> gcd' b (a % b)
-        gcd' a b
+    let rec gcd (a: int) (b: int) : int =
+        if b = 0 then
+            a
+        else
+            gcd b (a % b)
 
     let lcm a b =
         (a * b) / gcd a b

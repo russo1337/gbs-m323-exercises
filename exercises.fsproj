@@ -10,6 +10,8 @@
     <Compile Include="functions\Math.fs" />
     <Compile Include="Excercise1and2.fs" />
     <Compile Include="Excercise3.fs" />
+    <Compile Include="Excercise5.fs" />
+	<Compile Include="PartialExamples.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>

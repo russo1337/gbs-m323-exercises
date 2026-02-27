@@ -22,6 +22,9 @@ module NetPrice =
             |> addShipping 
         ,1)
 
+    let calculateNetPrice2 price =
+        System.Math.Round (price |> discountedPrice |> under50add10Surcharge |> addShipping ,1)
+
 
 
 

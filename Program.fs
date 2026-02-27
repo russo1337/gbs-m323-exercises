@@ -7,4 +7,13 @@ let main argv =
     printfn "-----------------------------------"
     printfn "Running Excercise 3..."
     Excercise3.run()
+    printfn "-----------------------------------"
+    printfn "Running Excercise 5..."
+    Excercise5.run()
+    printfn "-----------------------------------"
+    printfn "Running Partial Appliction..."
+    PartialExamples.run()
+
+    printfn "Finished running Excercises. Press any key to exit."
+
     0
