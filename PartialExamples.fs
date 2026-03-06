@@ -35,7 +35,7 @@ module PartialExamples =
         let erstelleFirmenEmail =
             erstelleEmail "gbssg.ch"
 
-        let erstelleHansMüllerEmail () =
+        let erstelleHansMuellerEmail () =
             erstelleFirmenEmail "hans.müller"
 
         let hansmuellerhsr = erstelleEmail "hsr.ch" "hans.müller"
@@ -44,5 +44,5 @@ module PartialExamples =
         let hansli = erstelleFirmenEmail "hansli.müller"
         printfn "Hansli Müller's email at GBSSG is %s" hansli
         
-        let hansmueller = erstelleHansMüllerEmail ()
+        let hansmueller = erstelleHansMuellerEmail ()
         printfn "Hans Müller's email at GBSSG is %s" hansmueller

@@ -13,6 +13,9 @@ let main argv =
     printfn "-----------------------------------"
     printfn "Running Partial Appliction..."
     PartialExamples.run()
+    printfn "-----------------------------------"
+    printfn "Running Excercise 6..."
+    Excercise6.run()
 
     printfn "Finished running Excercises. Press any key to exit."
 

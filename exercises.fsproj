@@ -12,6 +12,7 @@
     <Compile Include="Excercise3.fs" />
     <Compile Include="Excercise5.fs" />
 	<Compile Include="PartialExamples.fs" />
+	<Compile Include="Exercise6.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>
