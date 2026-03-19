@@ -1,7 +1,7 @@
-﻿namespace Excercises
+namespace Excercises
 open Lib
 
-module Excercise3 =
+module Exercise3 =
 
     let run () =
         let price1 = 253.3
@@ -20,4 +20,3 @@ module Excercise3 =
         let primesTo = 999
         let listOfPrimes = Math.primesFromTo primesFrom primesTo
         printfn "The prime numbers from %d to %d are: %A" primesFrom primesTo listOfPrimes
-

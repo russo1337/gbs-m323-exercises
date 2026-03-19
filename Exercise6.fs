@@ -1,5 +1,4 @@
 ﻿namespace Excercises
-open Lib
 
 module Excercise6 =
 

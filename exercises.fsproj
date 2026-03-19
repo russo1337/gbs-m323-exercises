@@ -8,11 +8,16 @@
   <ItemGroup>
     <Compile Include="functions\NetPrice.fs" />
     <Compile Include="functions\Math.fs" />
-    <Compile Include="Excercise1and2.fs" />
-    <Compile Include="Excercise3.fs" />
-    <Compile Include="Excercise5.fs" />
-	<Compile Include="PartialExamples.fs" />
-	<Compile Include="Exercise6.fs" />
+    <Compile Include="Exercise1and2.fs" />
+    <Compile Include="Exercise3.fs" />
+    <Compile Include="Exercise5.fs" />
+    <Compile Include="PartialExamples.fs" />
+    <Compile Include="Exercise6.fs" />
+    <Compile Include="Exercise7.fs" />
+    <Compile Include="OperatorOverload.fs" />
+    <Compile Include="Exercise8.fs" />
+    <Compile Include="Exercise9.fs" />
+    <Compile Include="Exercise9Tuple.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>

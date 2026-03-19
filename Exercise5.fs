@@ -1,7 +1,7 @@
-﻿namespace Excercises
+namespace Excercises
 open Lib
 
-module Excercise5 =
+module Exercise5 =
 
     let run () =
         

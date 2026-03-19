@@ -1,7 +1,7 @@
-﻿namespace Excercises
+namespace Excercises
 open Lib
 
-module Excercise1and2 =
+module Exercise1and2 =
 
     let run () =
         let sum = Math.add 5 10
@@ -38,6 +38,3 @@ module Excercise1and2 =
 
         let lcm = Math.lcm 48 18
         printfn "The least common multiple of 48 and 18 is %d" lcm
-
-
-
