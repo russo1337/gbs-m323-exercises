@@ -18,6 +18,8 @@
     <Compile Include="Exercise8.fs" />
     <Compile Include="Exercise9.fs" />
     <Compile Include="Exercise9Tuple.fs" />
+    <Compile Include="ExerciseRecords.fs" />
+    <Compile Include="ExerciseAlias.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>

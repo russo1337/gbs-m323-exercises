@@ -28,8 +28,8 @@ let main argv =
     Exercise9Tuple.run()
     Exercise9.run()
     printfn "-----------------------------------"
-    printfn "Running Excercise 10..."
-
+    printfn "Running Record Excercise ..."
+    ExerciseRecords.run()
     printfn "Finished running Excercises. Press any key to exit."
 
     0
