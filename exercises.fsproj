@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="ExerciseList.fs" />
     <Compile Include="functions\NetPrice.fs" />
     <Compile Include="functions\Math.fs" />
     <Compile Include="Exercise1and2.fs" />
@@ -21,5 +22,8 @@
     <Compile Include="ExerciseRecords.fs" />
     <Compile Include="ExerciseAlias.fs" />
     <Compile Include="Program.fs" />
+    <None Include="Script1.fsx" />
   </ItemGroup>
+
+  <ItemGroup />
 </Project>

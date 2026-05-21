@@ -5,7 +5,18 @@ module Math =
     let add a b = a + b
     let subtract a b = a - b
     let multiply a b = a * b
-    let divide a b = a / b
+    let divide a b =
+        if b = 0 then
+            failwith "Division by zero"
+        else
+            a / b
+
+    /// Safe division returning a Result: Ok quotient or Error with message on division by zero
+    let divide2 a b =
+        if b = 0 then
+            Error "Division by zero"
+        else
+            Ok (a / b)
 
     let rec summerizeFromTo start finish =
          match start with
